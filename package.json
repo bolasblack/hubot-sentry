@@ -1,0 +1,29 @@
+{
+  "name": "hubot-sentry",
+  "description": "A hubot script to support sentry-webhooks.",
+  "version": "0.0.1",
+  "author": "c4605 <bolasblack@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "sentry",
+    "webhook"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bolasblack/hubot-sentry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bolasblack/hubot-sentry/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6",
+    "lodash": "^3.0.1"
+  },
+  "devDependencies": {},
+  "main": "src/sentry.coffee",
+  "scripts": {
+    "test": "echo null"
+  }
+}
