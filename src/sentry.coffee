@@ -2,7 +2,7 @@
 #   A hubot script to support sentry-webhooks.
 #
 # Webhook:
-#   POST /hubot/sentry
+#   POST /hubot/sentry?room=<room name>&type=<chat or groupchat>
 #
 # Author:
 #   c4605 <bolasblack@gmail.com>
