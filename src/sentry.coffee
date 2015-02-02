@@ -22,5 +22,5 @@ module.exports = (robot) ->
 
     template = "Project \"${project_name}\" triggered a new ${level}, message: \"${message}\", detail: \"${url}\""
 
-    robot.send envelope, _.template(template, params)
+    robot.send envelope, _.template(template) params
     res.status(201).end 'OK'
